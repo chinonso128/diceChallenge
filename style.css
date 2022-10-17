@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(71, 108, 124) , rgb(230, 73, 206)) 0 100% no-repeat; 
+    background-size: 50% 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.middle {
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.middle button{
+        margin: 10px;
+        padding: 15px 40px;
+        font-family: avenir;
+        font-size: 18px;
+        color: white;
+        border-radius: 5px;
+        background-color: #a4eb22;
+        border: 1px solid #0c0c0c;
+        cursor: pointer;
+        box-shadow: rgb(71, 108, 124);
+}
+
+#diceImage {
+    margin: 10px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.players {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+#score1, #score2 {
+    margin: 20px 0;
+    font-size: 80px;
+}
+
+.currentScore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentScore h1 {
+    margin: 0;
+    font-size: 30px;
+    align-items: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
